@@ -1,0 +1,125 @@
+/* big tablets to 1200px */
+
+@media only screen and (max-width: 1200px) {
+    .hero-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+}
+
+/* Small tablets to big tablets: from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    .app-screen { width: 60%; }
+    .works-step { margin-bottom: 10%; }
+    .works-step div { margin-right: 15px;}
+    .btn-app img { height: 45px}
+    .steps-box:first-child { margin-top: 20px; }
+    .steps-box:last-child { margin-top: 10%; }
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .icon-small{
+    width: 19px;
+    margin: 0 1px 10px 0px;
+    }
+    .city-feature { font-size: 90% }
+    .plan-box{
+        width: 100%;
+        margin-left: 0%;
+        font-size: 80%
+    }
+    .section-form{
+    width: 80%;
+    margin: 0 auto;
+    }
+    footer{
+        padding: 6% 3% 6% 3%;
+    }
+    .footer-nav li, .social-links li{
+        margin-right: 9px;
+    }
+    .footer-nav{
+        font-size: 90%;
+    }
+}
+/* Small phones to small tablets: from 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+    body{ font-size: 16px; }
+    .nav-list{ 
+        float:left;
+        margin-top: 25px;
+        display:none;    
+    }
+    .nav-list li{
+        display: block;
+        padding: 10px;
+    }
+    .nav-list li:first-child{
+        padding-top: 0;
+    }
+    .mobile-nav-icon{ 
+        display: inline-block;
+        margin-top: 50px;
+        font-size: 180%;
+        color: white;
+        cursor: pointer;
+    }
+    .sticky .nav-list{
+        margin-top: 10px;
+        font-size: 100%;
+    }
+    .sticky .mobile-nav-icon{
+        color: #555;
+        margin-top: 15px;
+    }
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .col{ width: 100% !important;
+        margin: 0 0 4% 0 !important;
+    }
+    .row{ width: 80%; }
+    .section-features{ text-align: center;}
+    .app-screen { width: 40%; }
+    .steps-box:first-child {
+        text-align: center;
+        padding: 3%;
+        margin-top: 20px;
+    }
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        padding: 2px;
+    }
+    .plan-box{
+        width: 80%;
+        margin-left: 10%;
+        font-size: 120%;
+    }
+    .footer-nav{
+        list-style: none;
+        float: none;
+        text-align: center;
+    }
+    .social-links{
+        list-style: none;
+        float: none;
+        text-align: center;
+    }
+}
+
+/* Small phones: from 0 to 480px */
+
+@media only screen and (max-width: 480px) {
+    body{ font-size: 12px;}
+    .row{ width:100%!important; }
+}
